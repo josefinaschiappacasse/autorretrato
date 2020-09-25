@@ -5,8 +5,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
-  background(400, 200, 600);
+  background(255);
   drawBlob();
   noStroke();
 }
