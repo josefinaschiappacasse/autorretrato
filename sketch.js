@@ -1,7 +1,9 @@
 //para este dibujo me base en la revisión del trabajo de Francisca Ortega durante la clase de ie
-function setup() {
-  createCanvas(450, 450);
+let sketch;
 
+function setup() {
+  sketch = createCanvas(450, 450);
+  sketch.parent("p5");
 }
 
 function draw() {
